@@ -36,7 +36,7 @@ function reverse(x) {
     var rev = revArray.join(""); // "321"
     return rev;
   }
-app.get('/test',function(req,res){
+app.get('/test',function(req,res){ //test?month=10&year=2010
     console.log(req.query.month,req.query.year);
     const month = req.query.month;
     const year = req.query.year;

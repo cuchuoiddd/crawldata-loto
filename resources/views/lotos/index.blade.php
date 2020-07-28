@@ -16,7 +16,7 @@
                 </div>
                 <div class="card-body">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-3">
                                 <div class="form-group">
                                     <span class="">Từ ngày</span>
                                     <input type="date" name="date_start">
