@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('loto','LotoController');
+Route::get('hoi-ky','LotoController@cap3TinhLo');
+Route::post('hoi-ky','LotoController@cap3TinhLoPost');
+
